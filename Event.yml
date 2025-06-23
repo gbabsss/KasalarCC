@@ -1,1 +1,198 @@
-
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&8FloryaKasa'
+  Preview-Name: '&8FloryaKasa İçeriği'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 25
+  OpeningBroadCast: true
+  BroadCast: '%Prefix%&a%Player% &eAdlı Kişi &aElit &eKasasını Açtı.'
+  Item: 'CHEST'
+  Glowing: false
+  Name: '&eFloryaKasa'
+  Lore:
+  - '&8Değerli şeyler'
+  - ''
+  - '&7Kasayı açmak için &fsol &7tıklayın'
+  - '&7Görüntülemek için &fsağ &7tıklayın'
+  - ''
+  Hologram:
+    Toggle: true
+    Height: 2
+    Message:
+      - '&d&lFloryaKasa'
+      - ''
+      - '&7Açmak için sağ tıklayın.'
+      - '&7Bakmak için sol tıklayın.'
+  Preview:
+    Toggle: true
+    ChestLines: 3
+    Glass:
+      Toggle: true
+      Item: 'LIGHT_GRAY_STAINED_GLASS_PANE'
+  PhysicalKey:
+    Name: '&4Florya&cKasası Anahtarı'
+    Lore:
+    - '&8Kasa Anahtarı'
+    - ''
+    - '&7Bu Anahtarla Florya'
+    - '&7kasasını açabilirsiniz'
+    Item: 'TRIPWIRE_HOOK'
+    Glowing: true
+  Prizes:
+    '1':
+      DisplayName: '&eNetherite Kazma'
+      DisplayItem: 'Netherite_Pickaxe'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Commands:
+      - give %player% Diamond_Pickaxe 1
+    '2':
+      DisplayName: '&eAltın Blok'
+      DisplayItem: 'Gold_Block'
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Commands:
+      - give %player% Gold_Block 64
+    '3':
+      DisplayName: '&eNetherite Göğüslük'
+      DisplayItem: 'Netherite_Chestplate'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Commands:
+      - give %player% Netherite_Chestplate 1
+    '4':
+      DisplayName: '&eElmas Kılıç'
+      DisplayItem: 'Diamond_Sword'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Commands:
+      - give %player% Diamond_Sword 1
+    '5':
+      DisplayName: '&eDemir'
+      DisplayItem: 'iron_imgot'
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Commands:
+      - give %player% iron_ingot 64
+    '6':
+      DisplayName: '&e1000 Bakiye'
+      DisplayItem: 'PAPER'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Commands:
+      - eco give %Player% 1000
+    '7':
+      DisplayName: '&eElmas Pantolon'
+      DisplayItem: 'Diamond_Leggings'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Commands:
+      - give %player% Diamond_Leggings
+    '8':
+      DisplayName: '&eElmas Kask'
+      DisplayItem: 'Diamond_Helmet'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Commands:
+      - give %player% Diamond_Helmet 1
+    '9':
+      DisplayName: '&eElmas Balta'
+      DisplayItem: 'Diamond_Axe'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Commands:
+      - give %player% Diamond_Axe 1
+    '10':
+           DisplayName: '&eZombie Spawner'
+      DisplayItem: 'SPAWNER'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%3'
+      MaxRange: 100
+      Chance: 0
+      Firework: true
+      Glowing: false
+      Commands:
+      - ss give %player% zombie 1
+    '11':
+      DisplayName: '&eSkeleton Spawner'
+      DisplayItem: 'SPAWNER'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%3'
+      MaxRange: 100
+      Chance: 0
+      Firework: true
+      Glowing: false
+      Commands:
+      - ss give %player% skeleton 1
+    '12':
+      DisplayName: '&eNetherite Kürek'
+      DisplayItem: 'Netherite_Shovel'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      commands:
+      - give %player% Netherite_Shovel 1 
