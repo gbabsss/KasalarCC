@@ -51,8 +51,8 @@ Crate:
       Chance: 10
       Firework: true
       Glowing: false
-      Items:
-      - Item:Diamond_Pickaxe, Amount:1
+      Commands:
+      - give %player% Diamond_Pickaxe 1
     '2':
       DisplayName: '&eToprak'
       DisplayItem: 'Dirt'
@@ -64,11 +64,11 @@ Crate:
       Chance: 10
       Firework: true
       Glowing: false
-      Items:
-      - Item:Dirt, Amount:64
+      Commands:
+      - give %player% Dirt 64
     '3':
-      DisplayName: '&eElmas Göğüslük'
-      DisplayItem: 'Diamond_Chestplate'
+      DisplayName: '&eNetherite Göğüslük'
+      DisplayItem: 'Netherite_Chestplate'
       DisplayAmount: 1
       Lore:
       - ''
@@ -77,8 +77,8 @@ Crate:
       Chance: 10
       Firework: false
       Glowing: false
-      Items:
-      - Item:Diamond_Chestplate, Amount:1
+      Commands:
+      - give %player% Netherite_Chestplate 1
     '4':
       DisplayName: '&eElmas Kılıç'
       DisplayItem: 'Diamond_Sword'
@@ -90,8 +90,8 @@ Crate:
       Chance: 10
       Firework: true
       Glowing: false
-      Items:
-      - Item:Diamond_Sword, Amount:1
+      Commands:
+      - give %player% Diamond_Sword 1
     '5':
       DisplayName: '&eDemir'
       DisplayItem: 'Iron_Ingot'
@@ -103,8 +103,8 @@ Crate:
       Chance: 10
       Firework: false
       Glowing: false
-      Items:
-      - Item:Iron_Ingot, Amount:64
+      Commands:
+      - give %player% Iron_Ingot 64
     '6':
       DisplayName: '&e100 Bakiye'
       DisplayItem: 'PAPER'
@@ -129,8 +129,8 @@ Crate:
       Chance: 10
       Firework: true
       Glowing: false
-      Items:
-      - Item:Diamond_Leggings, Amount:1
+      Commands:
+      - give %player% Diamond_Leggings
     '8':
       DisplayName: '&eElmas Kask'
       DisplayItem: 'Diamond_Helmet'
@@ -142,8 +142,8 @@ Crate:
       Chance: 10
       Firework: true
       Glowing: false
-      Items:
-      - Item:Diamond_Helmet, Amount:1
+      Commands:
+      - give %player% Diamond_Helmet 1
     '9':
       DisplayName: '&eElmas Balta'
       DisplayItem: 'Diamond_Axe'
@@ -155,8 +155,8 @@ Crate:
       Chance: 10
       Firework: true
       Glowing: false
-      Items:
-      - Item: Diamond_Axe, Amount:1
+      Commands:
+      - give %player% Diamond_Axe 1
     '10':
       DisplayName: '&eElmas Bot'
       DisplayItem: 'Diamond_Boots'
@@ -168,8 +168,8 @@ Crate:
       Chance: 10
       Firework: true
       Glowing: false
-      Items:
-      - Item:Diamond_Boots, Amount:1
+      commands:
+      - give %player% Diamond_Boots 1
     '11':
       DisplayName: '&eDemir Golem Spawner'
       DisplayItem: 'SPAWNER'
@@ -194,5 +194,5 @@ Crate:
       Chance: 10
       Firework: true
       Glowing: false
-      Items:
-      - Item:Diamond_Shovel, Amount:1
+      commands:
+      - give %player% Diamond_Shovel 1 
