@@ -52,7 +52,7 @@ Crate:
       Firework: true
       Glowing: false
       Items:
-      - Item:DIAMOND_PICKAXE, Amount:1
+      - Item:Diamond_Pickaxe, Amount:1
     '2':
       DisplayName: '&eToprak'
       DisplayItem: 'Dirt'
@@ -65,7 +65,7 @@ Crate:
       Firework: true
       Glowing: false
       Items:
-      - Item:DIRT, Amount:64
+      - Item:Dirt, Amount:64
     '3':
       DisplayName: '&eElmas Göğüslük'
       DisplayItem: 'Diamond_Chestplate'
@@ -78,7 +78,7 @@ Crate:
       Firework: false
       Glowing: false
       Items:
-      - Item:DIAMOND_CHESTPLATE, Amount:1
+      - Item:Diamond_Chestplate, Amount:1
     '4':
       DisplayName: '&eElmas Kılıç'
       DisplayItem: 'Diamond_Sword'
@@ -91,7 +91,7 @@ Crate:
       Firework: true
       Glowing: false
       Items:
-      - Item:DIAMOND_SWORD, Amount:1
+      - Item:Diamond_Sword, Amount:1
     '5':
       DisplayName: '&eDemir'
       DisplayItem: 'Iron_Ingot'
@@ -104,7 +104,7 @@ Crate:
       Firework: false
       Glowing: false
       Items:
-      - Item:IRON_INGOT, Amount:64
+      - Item:Iron_Ingot, Amount:64
     '6':
       DisplayName: '&e100 Bakiye'
       DisplayItem: 'PAPER'
@@ -130,7 +130,7 @@ Crate:
       Firework: true
       Glowing: false
       Items:
-      - Item:DIAMOND_LEGGINGS, Amount:1
+      - Item:Diamond_Leggings, Amount:1
     '8':
       DisplayName: '&eElmas Kask'
       DisplayItem: 'Diamond_Helmet'
@@ -143,7 +143,7 @@ Crate:
       Firework: true
       Glowing: false
       Items:
-      - Item:DIAMOND_HELMET, Amount:1
+      - Item:Diamond_Helmet, Amount:1
     '9':
       DisplayName: '&eElmas Balta'
       DisplayItem: 'Diamond_Axe'
@@ -156,7 +156,7 @@ Crate:
       Firework: true
       Glowing: false
       Items:
-      - Item: DIAMOND_AXE, Amount:1
+      - Item: Diamond_Axe, Amount:1
     '10':
       DisplayName: '&eElmas Bot'
       DisplayItem: 'Diamond_Boots'
@@ -169,7 +169,7 @@ Crate:
       Firework: true
       Glowing: false
       Items:
-      - Item:DIAMOND_BOOTS, Amount:1
+      - Item:Diamond_Boots, Amount:1
     '11':
       DisplayName: '&eDemir Golem Spawner'
       DisplayItem: 'SPAWNER'
@@ -195,4 +195,4 @@ Crate:
       Firework: true
       Glowing: false
       Items:
-      - Item:DIAMOND_SHOVEL, Amount:1
+      - Item:Diamond_Shovel, Amount:1
