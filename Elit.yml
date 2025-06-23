@@ -1,0 +1,198 @@
+Crate:
+  CrateType: QuickCrate
+  CrateName: '&8ElitKasa'
+  Preview-Name: '&8ElitKasa İçeriği'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 23
+  OpeningBroadCast: true
+  BroadCast: '%Prefix%&a%Player% &eAdlı Kişi &aElit &eKasasını Açtı.'
+  Item: 'CHEST'
+  Glowing: false
+  Name: '&eElitKasa'
+  Lore:
+  - '&8Değerli şeyler'
+  - ''
+  - '&7Kasayı açmak için &fsol &7tıklayın'
+  - '&7Görüntülemek için &fsağ &7tıklayın'
+  - ''
+  Hologram:
+    Toggle: true
+    Height: 2
+    Message:
+      - '&d&lElitKasa'
+      - ''
+      - '&7Açmak için sağ tıklayın.'
+      - '&7Bakmak için sol tıklayın.'
+  Preview:
+    Toggle: true
+    ChestLines: 3
+    Glass:
+      Toggle: true
+      Item: 'LIGHT_GRAY_STAINED_GLASS_PANE'
+  PhysicalKey:
+    Name: '&aElit&e Kasası Anahtarı'
+    Lore:
+    - '&8Kasa Anahtarı'
+    - ''
+    - '&7Bu Anahtarla Başlangıç'
+    - '&7kasasını açabilirsiniz'
+    Item: 'TRIPWIRE_HOOK'
+    Glowing: true
+  Prizes:
+    '1':
+      DisplayName: '&eElmas Kazma'
+      DisplayItem: 'Diamond_Pickaxe'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Items:
+      - Item:DIAMOND_PICKAXE, Amount:1
+    '2':
+      DisplayName: '&eToprak'
+      DisplayItem: 'Dirt'
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Items:
+      - Item:DIRT, Amount:64
+    '3':
+      DisplayName: '&eElmas Göğüslük'
+      DisplayItem: 'Diamond_Chestplate'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Items:
+      - Item:DIAMOND_CHESTPLATE, Amount:1
+    '4':
+      DisplayName: '&eElmas Kılıç'
+      DisplayItem: 'Diamond_Sword'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Items:
+      - Item:DIAMOND_SWORD, Amount:1
+    '5':
+      DisplayName: '&eDemir'
+      DisplayItem: 'Iron_Ingot'
+      DisplayAmount: 64
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Items:
+      - Item:IRON_INGOT, Amount:64
+    '6':
+      DisplayName: '&e100 Bakiye'
+      DisplayItem: 'PAPER'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Commands:
+      - eco give %Player% 100
+    '7':
+      DisplayName: '&eElmas Pantolon'
+      DisplayItem: 'Diamond_Leggings'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Items:
+      - Item:DIAMOND_LEGGINGS, Amount:1
+    '8':
+      DisplayName: '&eElmas Kask'
+      DisplayItem: 'Diamond_Helmet'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Items:
+      - Item:DIAMOND_HELMET, Amount:1
+    '9':
+      DisplayName: '&eElmas Balta'
+      DisplayItem: 'Diamond_Axe'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Items:
+      - Item: DIAMOND_AXE, Amount:1
+    '10':
+      DisplayName: '&eElmas Bot'
+      DisplayItem: 'Diamond_Boots'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Items:
+      - Item:DIAMOND_BOOTS, Amount:1
+    '11':
+      DisplayName: '&eDemir Golem Spawner'
+      DisplayItem: 'SPAWNER'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%3'
+      MaxRange: 100
+      Chance: 0
+      Firework: true
+      Glowing: false
+      Commands:
+      - ss give %player% irongolem 1
+    '12':
+      DisplayName: '&eElmas Kürek'
+      DisplayItem: 'Diamond_Shovel'
+      DisplayAmount: 1
+      Lore:
+      - ''
+      - '&7Çıkma Şansı: &c%10'
+      MaxRange: 100
+      Chance: 10
+      Firework: true
+      Glowing: false
+      Items:
+      - Item:DIAMOND_SHOVEL, Amount:1
