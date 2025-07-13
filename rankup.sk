@@ -1,0 +1,42 @@
+options:
+    acemi-cost: 1000
+    kalfa-cost: 3000
+    usta-cost: 5000
+
+command /rankup:
+    trigger:
+        if {rank.%player%} is not set:
+            set {rank.%player%} to 1
+
+        if {rank.%player%} is 1:
+            if player's balance >= {@acemi-cost}:
+                remove {@acemi-cost} from player's balance
+                execute console command "lp user %player% parent add acemi"
+                send "&aAcemi rütbesine terfi ettiniz!"
+                set {rank.%player%} to 2
+            else:
+                send "&cAcemi olmak için {@acemi-cost}$ gerekli."
+            stop
+
+        if {rank.%player%} is 2:
+            if player's balance >= {@kalfa-cost}:
+                remove {@kalfa-cost} from player's balance
+                execute console command "lp user %player% parent add kalfa"
+                send "&aKalfa rütbesine terfi ettiniz!"
+                set {rank.%player%} to 3
+            else:
+                send "&cKalfa olmak için {@kalfa-cost}$ gerekli."
+            stop
+
+        if {rank.%player%} is 3:
+            if player's balance >= {@usta-cost}:
+                remove {@usta-cost} from player's balance
+                execute console command "lp user %player% parent add usta"
+                send "&aTebrikler! Artık bir Usta'sınız!"
+                delete {rank.%player%}
+            else:
+                send "&cUsta olmak için {@usta-cost}$ gerekli."
+            stop
+
+        if {rank.%player%} > 3:
+            send "&eZaten en yüksek rütbedesiniz."
